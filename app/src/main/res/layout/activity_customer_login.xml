@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box_bg2"
+    tools:context=".CustomerLoginActivity">
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:paddingHorizontal="25dp"
+        android:paddingVertical="120dp"
+        android:text="Customer Login"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv9"
+        android:layout_width="331dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="184dp"
+        android:text="Please Signin to continue"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv8" />
+
+    <TextView
+        android:id="@+id/tv13"
+        android:layout_width="419dp"
+        android:layout_height="435dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv9"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/login_customer_email"
+        android:layout_width="373dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv13"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="@+id/tv13"
+        app:layout_constraintTop_toBottomOf="@+id/tv8"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <EditText
+        android:id="@+id/login_customer_password"
+        android:layout_width="373dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv13"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/tv13"
+        app:layout_constraintTop_toBottomOf="@+id/login_customer_email"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <Button
+        android:id="@+id/login_customer_btn"
+        android:layout_width="107dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFB300"
+        android:fontFamily="sans-serif-black"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="@+id/tv13"
+        app:layout_constraintTop_toBottomOf="@+id/login_customer_password" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="92dp"
+        android:text="No Account?"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_customer_btn"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <TextView
+        android:id="@+id/driver_registrtion_tv"
+        android:layout_width="117dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="80dp"
+        android:text="Get Registered"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:textColor="#FFB300"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_customer_btn"
+        app:layout_constraintVertical_bias="0.195" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:background="@color/teal_700">
+
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="313dp"
+        android:layout_height="73dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-black"
+        android:text="I AM "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <ImageButton
+        android:id="@+id/driver_btn"
+        android:layout_width="218dp"
+        android:layout_height="213dp"
+        android:layout_below="@+id/tv11"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/driver"
+        android:src="@drawable/image_border" />
+
+    <ImageButton
+        android:id="@+id/passenger_btn"
+        android:layout_width="231dp"
+        android:layout_height="222dp"
+        android:layout_below="@+id/driver_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="59dp"
+        android:background="@drawable/new_passenger"
+        android:src="@drawable/image_border"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+
+</RelativeLayout>

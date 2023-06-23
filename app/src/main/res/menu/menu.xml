@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/view_options"
+        android:title="View Options"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/normal_map"
+                android:title="@string/normal_map"
+                app:showAsAction="never"/>
+            <item android:id="@+id/hybrid_map"
+                android:title="@string/hybrid_map"
+                app:showAsAction="never"/>
+            <item android:id="@+id/satellite_map"
+                android:title="@string/satellite_map"
+                app:showAsAction="never"/>
+            <item android:id="@+id/terrain_map"
+                android:title="@string/terrain_map"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+
+
+        />
+
+    <item
+        android:title="Settings"
+        android:id="@+id/settings"
+
+        />
+</menu>
